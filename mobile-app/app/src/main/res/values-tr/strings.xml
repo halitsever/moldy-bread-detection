@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">kafkefküf</string>
+    <string name="takephoto">Fotoğraf çek</string>
+    <string name="selectfromgallery">Galeriden yükle</string>
+    <string name="connectionErr">İnternet bağlantınız bulunamadı veya stabil değil. Uygulamayı kullanmak için aktif internete bağlı olmanız gerekmektedir. Tekrar denemek ister misiniz?</string>
+    <string name="connectionErrTryAgain">Tekrar dene</string>
+    <string name="uploadNewPhoto">Yeni bir fotoğraf yükle</string>
+    <string name="serverErrToastMsg">Server tarafına istek gönderilemedi</string>
+    <string name="countMsg">kez kullanıldı!</string>
+    <string name="userlogin">Giriş yap</string>
+    <string name="userRegister">Kayıt ol</string>
+    <string name="userLogout">Çıkış yap</string>
+    <string name="welcomeMsg">Hoş geldin,</string>
+    <string name="logoutMsg">Çıkış</string>
+    <string name="hidden"></string>
+</resources>
