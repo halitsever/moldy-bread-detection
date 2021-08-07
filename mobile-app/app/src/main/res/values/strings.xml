@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mold Detector</string>
+    <string name="takephoto">Take Photo</string>
+    <string name="selectfromgallery">Upload from gallery</string>
+    <string name="connectionErr">Your internet connection was not found or unstable. To use the application, you must be connected to the active internet. Would you like to try again?</string>
+    <string name="connectionErrTryAgain">Try again</string>
+    <string name="uploadNewPhoto">Upload a new photo</string>
+    <string name="serverErrToastMsg">Could not send request to server</string>
+    <string name="countMsg">times used!</string>
+    <string name="userlogin">Login</string>
+    <string name="userRegister">Register</string>
+    <string name="userLogout">Logout</string>
+    <string name="welcomeMsg">Welcome,</string>
+    <string name="logoutMsg">Logout</string>
+    <string name="hidden"></string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/BackgroundColor"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="653dp"
+        android:layout_height="541dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+
+        app:srcCompat="@drawable/shape_result" />
+
+    <ImageView
+        android:id="@+id/resultImg"
+        android:layout_width="206dp"
+        android:maxWidth="206dp"
+        android:maxHeight="209dp"
+        android:minHeight="209dp"
+        android:minWidth="206dp"
+        android:layout_height="209dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216"
+        app:srcCompat="@android:color/holo_green_dark"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        style="@style/btnTexts"
+        android:background="@drawable/btn_component"
+        android:id="@+id/btnReturn"
+        android:layout_width="296dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="89dp"
+        android:text="@string/uploadNewPhoto"
+        app:icon="@drawable/ic_baseline_add_a_photo_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shape" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

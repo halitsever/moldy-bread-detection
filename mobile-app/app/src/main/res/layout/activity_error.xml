@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ErrorActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+
+        android:layout_width="181dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="106dp"
+        app:layout_constraintBottom_toTopOf="@+id/errMsg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/internet_error_animation" />
+
+    <TextView
+        android:id="@+id/errMsg"
+        android:layout_width="284dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="@font/roboto"
+        android:textAlignment="center"
+        android:textColor="#c1f585"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/recheckConnection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/connectionErr" />
+
+    <Button
+        android:id="@+id/recheckConnection"
+        style="@style/btnTexts"
+        android:layout_width="201dp"
+        android:layout_height="59dp"
+        android:background="@drawable/btn_component"
+        android:text="@string/connectionErrTryAgain"
+        app:icon="@android:drawable/ic_popup_sync"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+</androidx.constraintlayout.widget.ConstraintLayout>
